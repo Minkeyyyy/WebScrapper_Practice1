@@ -30,9 +30,7 @@ def extract_job(html):
         location = location.get_text(strip=True)
         result['company'] = company
         result['location'] = location
-
     if result:
-        print(result)
         return result
 
 
